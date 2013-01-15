@@ -5,7 +5,10 @@
 <title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' | '; } ?><?php bloginfo('name'); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="shortcut icon" href="<?php get_option_tree('favicon', '', true); ?>" />
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" />
+
+<link rel="stylesheet" href="mobile-all.css" type="text/css" media="screen" />
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if IE 7 ]>
 <link href="<?php bloginfo('template_url'); ?>/ie7.css" media="screen" rel="stylesheet" type="text/css">
