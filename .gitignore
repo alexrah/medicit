@@ -1,1 +1,3 @@
 .DS_Store
+wp-content/themes/care/functions/shortcodes-ultimate/lib/cache
+.htaccess
